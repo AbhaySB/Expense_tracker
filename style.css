@@ -160,8 +160,18 @@ h3 {
 }
 
 form input {
-    padding: 10px 15px;
+    padding: 10px 10px;
+    /* margin: 15px; */
     width: 100%;
+}
+
+.amt_input{
+    width: 8rem;
+    margin-left: 1px;
+}
+
+.txt_input{
+    margin-left: 1px;
 }
 
 .button_container {
@@ -185,12 +195,13 @@ form input {
 
 #earnBtn{
     background-color: var(--green);
-    width: 126%;
+    width: 140%;
 }
 
 #expBtn{
     background-color: var(--red);
     margin-left: 1.10rem;
+    width: 90%;
 }
 
 
